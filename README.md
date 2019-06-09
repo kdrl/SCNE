@@ -39,6 +39,7 @@ git submodule update
 2. Compile with `make`
 3. Prepare a training corpus. As a preprocessing, we replaced all whitespaces with '␣' (U+2423 Open Box Unicode Character)
 4. Train embeddings (See `train.sh`)
+5. Load the learned compositional n-gram embeddings and Use it (See `scne.py`)
 
 ## Submodules & Dependencies
 
